@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.8",
+    "jquery": "1.9.1 - 2",
+    "bootstrap": "*"
+  }
+}

@@ -1,0 +1,21 @@
+<header><h1 align="center"> Student Percentile Calculator</h1></header>
+<section>
+<div class="table-responsive">
+	<table class="table" style="width:50%">
+		<thead>
+            <tr>
+                <th >Student Name</th>
+                <th >Student GPA</th>
+                <th >Student Percentile</th>
+            </tr>
+           </thead>
+           <tbody>
+           	<tr ng-repeat="student in studentData">
+           	<td>{{:: student.name}}</td>
+           	<td>{{:: student.gpa}}</td>
+            <td>{{getStudentPercentile(student.gpa)}}</td></tr>
+           </tbody>
+	</table>
+</div>
+</section>
+<footer></footer>
